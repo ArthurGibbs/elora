@@ -1,0 +1,8 @@
+token=your token in here
+sent_bin=models/en-sent.bin
+tokenBin=models/en-token.bin
+db.host=localhost
+db.port=3306
+db.schema=bot
+db.user=app
+db.password=password
