@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="nlp.NERTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-02-13T21:55:07" hostname="Talos" time="1.715">
+  <properties/>
+  <testcase name="canTagName()" classname="nlp.NERTest" time="1.715"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

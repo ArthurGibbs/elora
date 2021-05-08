@@ -16,8 +16,8 @@ public class Main {
     }
 
     //todo
-    //fix disconnect
-    //make ner work
+    //fix disconnect? exceptions?
+    //make ner work// change to stanford 
     //change moddel to encompase multi element ners
     //maths module
     //guice

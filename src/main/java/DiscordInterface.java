@@ -21,8 +21,8 @@ public class DiscordInterface {
     }
 
     public void run() {
-        while (true) {
-            try {
+       // while (true) {
+            //try {
                 GatewayDiscordClient client = dlclient.login().timeout(Duration.ofSeconds(300)).block();
 
                 handleOnReadyEvent(client);
@@ -30,10 +30,10 @@ public class DiscordInterface {
 
                 client.onDisconnect().block();
                 System.out.println("Disconnected!");
-            }
-            catch (Exception e) {         System.out.println("Ignoring Exception and restarting");}
-            finally {                     System.out.println("Restarting discord interface");}
-        }
+           // }
+            //catch (Exception e) {         System.out.println("Ignoring Exception and restarting");}
+           // finally {                     System.out.println("Restarting discord interface");}
+       // }
     }
 
     private void handleOnReadyEvent(GatewayDiscordClient client) {
