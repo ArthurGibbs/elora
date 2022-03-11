@@ -14,4 +14,8 @@ sudo mysql
     GRANT CREATE, ALTER, DROP, INSERT, UPDATE, DELETE, SELECT, REFERENCES, RELOAD on *.* TO 'app'@'localhost' WITH GRANT OPTION;
     FLUSH PRIVILEGES;
     exit
+
+
+for haystack
+pip install farm-haystack
     

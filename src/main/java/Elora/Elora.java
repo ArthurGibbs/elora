@@ -44,7 +44,6 @@ public class Elora {
         List<Response> responses = new ArrayList<Response>();
         for(Skill skill : skills) {
             Optional<Response> response = skill.perform(parsedMessage);
-            //todo pick best weight
             if (response.isPresent()) {
                 responses.add(response.get());
             }
